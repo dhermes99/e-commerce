@@ -1,0 +1,19 @@
+.navbar{
+    padding: 10px;
+    margin: 0;
+    
+    border: solid rgba(0, 0, 0, 0.116) 1px;
+    background-color:#fca311;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
