@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Card, Button, Toast, Alert } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import "../components/Produto.css";
-import msg from "./Button";
 import database from "../database";
 import { Link } from "react-router-dom";
-import Especifico from "../pages/Especifico";
 
 export default function Produtos() {
   const db = database();

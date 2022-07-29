@@ -1,19 +1,29 @@
-.navbar{
+nav{
     padding: 10px;
-    margin: 0;
-    
+    margin: 0;    
     border: solid rgba(0, 0, 0, 0.116) 1px;
     background-color:#fca311;
     list-style: none;
     text-decoration: none;
-    color: white;
-    
-    
-    
+    display: flex;
+     
 }
 
 a{
     text-decoration: none;
     list-style: none;
-    color: white;
+    
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#login{
+    text-align: left;
+    color: black;
+}
+

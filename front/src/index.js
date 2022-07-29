@@ -8,6 +8,8 @@ import Carrinho from "./pages/Carrinho";
 import { produtos } from "./database/initialProdutos";
 import Especifico from "./pages/Especifico";
 import "./Index.css";
+import Entrar from "./pages/Entrar";
+import { Navbar } from "react-bootstrap";
 
 localStorage.setItem("produtos", JSON.stringify(produtos));
 
@@ -18,6 +20,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="carrinho" element={<Carrinho />} />
       <Route path="especifico/:id" element={<Especifico />} />
+      <Route path="login" element={<Entrar />} />
     </Routes>
   </BrowserRouter>
 );
