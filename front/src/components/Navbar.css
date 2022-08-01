@@ -1,4 +1,4 @@
-nav{
+nav {
     padding: 10px;
     margin: 0;    
     border: solid rgba(0, 0, 0, 0.116) 1px;
@@ -13,17 +13,5 @@ a{
     text-decoration: none;
     list-style: none;
     
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    
-    
-}
-
-#login{
-    text-align: left;
-    color: black;
 }
 

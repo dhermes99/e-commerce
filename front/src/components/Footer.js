@@ -23,17 +23,7 @@ const Footer = () => (
                 Instagram Vinícius
               </a>
             </li>
-            <li>
-              <a href="https://www.instagram.com/nicolasbort/">
-                Instagram Nícolas
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/nicolaspbortoluzzi/">
-                {" "}
-                Linkedin Nícolas
-              </a>
-            </li>
+
             <li>
               <a href="https://www.linkedin.com/in/vinicius-hermes-09a655232/">
                 {" "}
@@ -46,8 +36,10 @@ const Footer = () => (
     </div>
 
     <div className="footer-copyright text-center py-3">
-      © 2022 ViniciusNicolas:
-      <a href="https://mdbootstrap.com/"> PROJETO E-COMMERCE</a>
+      © 2022
+      <a> PROJETO E-COMMERCE</a>
+      <br />
+      <span>email para contato : viniciushermes99@gmail.com</span>
     </div>
   </footer>
 );
